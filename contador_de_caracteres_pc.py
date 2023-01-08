@@ -118,3 +118,5 @@ janela.bind('<Button-1>', clique_esquerdo_mouse)
 
 # Looping principal
 janela.mainloop()
+
+#Criado por Isouz - https://github.com/Isouz
