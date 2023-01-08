@@ -11,6 +11,7 @@ Ao abrir a ferramenta podemos notar de cara a sua simplicidade. Nela temos três
 
 
 O campo principal é onde vamos inserir nosso texto. Nele podemos inserir letras, números e caracteres especiais (!, @, #, $, etc).
+
 ![texto](https://user-images.githubusercontent.com/103651578/211166910-80dacc54-cd1d-4c79-b3b6-9d94e0d7364f.png)
 
 
