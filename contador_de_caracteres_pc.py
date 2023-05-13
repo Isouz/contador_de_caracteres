@@ -1,5 +1,6 @@
 # Imports
 from tkinter import *
+from tkinter import ttk
 
 # Funcões
 def clique_esquerdo_mouse(retorno):
@@ -83,6 +84,10 @@ desc.grid(column=0, row=0,  pady=5, padx=5, columnspan=2,)
 campo = Text(height=15, width=15, font=('Arial', 11))
 campo.grid(column=0, row=1, stick='nswe', padx=10, pady=5, columnspan=2)
 
+scrollbar = ttk.Scrollbar(orient='vertical', command=campo.yview)
+scrollbar.grid(column=1, row=1, stick='nse', padx=10, pady=5.5)
+campo['yscrollcommand'] = scrollbar.set
+
 ignore_Label = Label(text='Ignorar:', font=('Arial', 12, 'bold'), bg='#3a2d99', fg='white')
 ignore_Label.grid(column=0, row=4, pady=10, padx=5, stick='e')
 
@@ -119,4 +124,6 @@ janela.bind('<Button-1>', clique_esquerdo_mouse)
 # Looping principal
 janela.mainloop()
 
-#Criado por Isouz - https://github.com/Isouz
+
+# Desenvolvido por Igor Souza.
+# GitHub- https://github.com/Isouz
